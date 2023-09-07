@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Backend": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\ASUS\\Desktop\\GVMP\\server-files\\ragemp-server.exe",
+      "workingDirectory": "C:\\Users\\ASUS\\Desktop\\GVMP\\server-files"
+    }
+  }
+}

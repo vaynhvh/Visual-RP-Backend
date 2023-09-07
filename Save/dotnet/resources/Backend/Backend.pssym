@@ -1,0 +1,1710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="5462" PostSharpLinesOfCode="0" EnhancedTypesCount="44" SchemaVersion="1" PostSharpVersion="6.10.5.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Evolution Source="#1=M:[Backend]Backend.RX::TakeMoneyFromStaatskonto(System.Int32, System.String)" Target="#2=M:[Backend]Backend.RX+&lt;TakeMoneyFromStaatskonto&gt;d__4::MoveNext()" />
+  <Evolution Source="#3=M:[Backend]Backend.RX::GiveMoneyToStaatskonto(System.Int32, System.String)" Target="#4=M:[Backend]Backend.RX+&lt;GiveMoneyToStaatskonto&gt;d__5::MoveNext()" />
+  <Evolution Source="#5=M:[Backend]Backend.Utils.Extensions.EntityExtensions::CreateMCB(GTANetworkMethods.Entity, GTANetworkAPI.Vector3, GTANetworkAPI.Color, System.UInt32, System.Single, System.Single, System.Boolean, GTANetworkAPI.MarkerType, System.Boolean, System.Int32, System.Byte, System.String)" Target="#6=M:[Backend]Backend.Utils.Extensions.EntityExtensions+&lt;CreateMCB&gt;d__0::MoveNext()" />
+  <Evolution Source="#7=M:[Backend]Backend.Utils.Extensions.EnumerableExtensions::forEach{T}(System.Collections.Generic.IEnumerable{T}, System.Action{T})" Target="#8=M:[Backend]Backend.Utils.Extensions.EnumerableExtensions+&lt;forEach&gt;d__0{T}::MoveNext()" />
+  <Evolution Source="#9=M:[Backend]Backend.Utils.Extensions.EnumerableExtensions::forEachAlternativeAsync{T}(System.Collections.Generic.IEnumerable{T}, System.Action{T})" Target="#10=M:[Backend]Backend.Utils.Extensions.EnumerableExtensions+&lt;forEachAlternativeAsync&gt;d__1{T}::MoveNext()" />
+  <Evolution Source="#11=M:[Backend]Backend.Modules.RXModule::Load()" Target="#12=M:[Backend]Backend.Modules.RXModule+&lt;Load&gt;d__12::MoveNext()" />
+  <Evolution Source="#13=M:[Backend]Backend.Modules.RXModule::OnPlayerConnect([Backend]Backend.Models.RXPlayer)" Target="#14=M:[Backend]Backend.Modules.RXModule+&lt;OnPlayerConnect&gt;d__13::MoveNext()" />
+  <Evolution Source="#15=M:[Backend]Backend.Modules.RXModule::OnPlayerDisconnect([Backend]Backend.Models.RXPlayer, GTANetworkAPI.DisconnectionType, System.String)" Target="#16=M:[Backend]Backend.Modules.RXModule+&lt;OnPlayerDisconnect&gt;d__14::MoveNext()" />
+  <Evolution Source="#17=M:[Backend]Backend.Modules.RXModule::OnColShape([Backend]Backend.Models.RXColShape, [Backend]Backend.Models.RXPlayer, System.Boolean)" Target="#18=M:[Backend]Backend.Modules.RXModule+&lt;OnColShape&gt;d__15::MoveNext()" />
+  <Evolution Source="#19=M:[Backend]Backend.Modules.RXModule::OnPlayerDeath([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Target="#20=M:[Backend]Backend.Modules.RXModule+&lt;OnPlayerDeath&gt;d__16::MoveNext()" />
+  <Evolution Source="#21=M:[Backend]Backend.Modules.RXModule::OnTwoSecond()" Target="#22=M:[Backend]Backend.Modules.RXModule+&lt;OnTwoSecond&gt;d__17::MoveNext()" />
+  <Evolution Source="#23=M:[Backend]Backend.Modules.RXModule::OnTenSecond()" Target="#24=M:[Backend]Backend.Modules.RXModule+&lt;OnTenSecond&gt;d__18::MoveNext()" />
+  <Evolution Source="#25=M:[Backend]Backend.Modules.RXModule::OnFiveSecond()" Target="#26=M:[Backend]Backend.Modules.RXModule+&lt;OnFiveSecond&gt;d__19::MoveNext()" />
+  <Evolution Source="#27=M:[Backend]Backend.Modules.RXModule::OnTenMinute()" Target="#28=M:[Backend]Backend.Modules.RXModule+&lt;OnTenMinute&gt;d__20::MoveNext()" />
+  <Evolution Source="#29=M:[Backend]Backend.Modules.RXModule::OnHour()" Target="#30=M:[Backend]Backend.Modules.RXModule+&lt;OnHour&gt;d__21::MoveNext()" />
+  <Evolution Source="#31=M:[Backend]Backend.Modules.RXModule::PressedE([Backend]Backend.Models.RXPlayer)" Target="#32=M:[Backend]Backend.Modules.RXModule+&lt;PressedE&gt;d__22::MoveNext()" />
+  <Evolution Source="#33=M:[Backend]Backend.Modules.RXModule::PressedL([Backend]Backend.Models.RXPlayer)" Target="#34=M:[Backend]Backend.Modules.RXModule+&lt;PressedL&gt;d__23::MoveNext()" />
+  <Evolution Source="#35=M:[Backend]Backend.Modules.RXModule::PressedK([Backend]Backend.Models.RXPlayer)" Target="#36=M:[Backend]Backend.Modules.RXModule+&lt;PressedK&gt;d__24::MoveNext()" />
+  <Evolution Source="#37=M:[Backend]Backend.Modules.RXModule::TransferDBContextValues{T}(System.Collections.Generic.IEnumerable{T}, System.Action{T})" Target="#38=M:[Backend]Backend.Modules.RXModule+&lt;TransferDBContextValues&gt;d__26{T}::MoveNext()" />
+  <Evolution Source="#39=M:[Backend]Backend.Modules.Weapons.WeaponModule::OnPlayerWeaponSwitch([Backend]Backend.Models.RXPlayer, GTANetworkAPI.WeaponHash, GTANetworkAPI.WeaponHash)" Target="#40=M:[Backend]Backend.Modules.Weapons.WeaponModule+&lt;OnPlayerWeaponSwitch&gt;d__1::MoveNext()" />
+  <Evolution Source="#41=M:[Backend]Backend.Modules.Vehicle.VehicleModule::Load()" Target="#42=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;Load&gt;d__1::MoveNext()" />
+  <Evolution Source="#43=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_TOGGLE_LOCK([Backend]Backend.Models.RXPlayer)" Target="#44=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_TOGGLE_LOCK&gt;d__5::MoveNext()" />
+  <Evolution Source="#45=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_TOGGLE_ENGINE([Backend]Backend.Models.RXPlayer)" Target="#46=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_TOGGLE_ENGINE&gt;d__6::MoveNext()" />
+  <Evolution Source="#47=M:[Backend]Backend.Modules.Vehicle.VehicleModule::ejectSeat([Backend]Backend.Models.RXPlayer, System.Int32)" Target="#48=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;ejectSeat&gt;d__7::MoveNext()" />
+  <Evolution Source="#49=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_EJECT([Backend]Backend.Models.RXPlayer)" Target="#50=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_EJECT&gt;d__8::MoveNext()" />
+  <Evolution Source="#51=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_TOGGLE_LOCK_OUTSIDE([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle)" Target="#52=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_TOGGLE_LOCK_OUTSIDE&gt;d__9::MoveNext()" />
+  <Evolution Source="#53=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_REPAIR([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle)" Target="#54=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_REPAIR&gt;d__10::MoveNext()" />
+  <Evolution Source="#55=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_INFORMATION([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle)" Target="#56=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_INFORMATION&gt;d__11::MoveNext()" />
+  <Evolution Source="#57=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_TOGGLE_SEATBELT([Backend]Backend.Models.RXPlayer)" Target="#58=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_TOGGLE_SEATBELT&gt;d__12::MoveNext()" />
+  <Evolution Source="#59=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_TOGGLE_DOOR_OUTSIDE([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle, System.Int32)" Target="#60=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_TOGGLE_DOOR_OUTSIDE&gt;d__13::MoveNext()" />
+  <Evolution Source="#61=M:[Backend]Backend.Modules.Vehicle.VehicleModule::REQUEST_VEHICLE_TOGGLE_DOOR([Backend]Backend.Models.RXPlayer, System.Int32)" Target="#62=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;REQUEST_VEHICLE_TOGGLE_DOOR&gt;d__14::MoveNext()" />
+  <Evolution Source="#63=M:[Backend]Backend.Modules.Vehicle.VehicleModule::PressedL([Backend]Backend.Models.RXPlayer)" Target="#64=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;PressedL&gt;d__15::MoveNext()" />
+  <Evolution Source="#65=M:[Backend]Backend.Modules.Vehicle.VehicleModule::PressedK([Backend]Backend.Models.RXPlayer)" Target="#66=M:[Backend]Backend.Modules.Vehicle.VehicleModule+&lt;PressedK&gt;d__16::MoveNext()" />
+  <Evolution Source="#67=M:[Backend]Backend.Modules.Vehicle.VehicleShopModule::OpenShop([Backend]Backend.Models.RXPlayer, System.UInt32)" Target="#68=M:[Backend]Backend.Modules.Vehicle.VehicleShopModule+&lt;OpenShop&gt;d__4::MoveNext()" />
+  <Evolution Source="#69=M:[Backend]Backend.Modules.Vehicle.VehicleShopModule::buyVehicle([Backend]Backend.Models.RXPlayer, System.String, System.String)" Target="#70=M:[Backend]Backend.Modules.Vehicle.VehicleShopModule+&lt;buyVehicle&gt;d__5::MoveNext()" />
+  <Evolution Source="#71=M:[Backend]Backend.Modules.Shops.ShopModule::Load()" Target="#72=M:[Backend]Backend.Modules.Shops.ShopModule+&lt;Load&gt;d__4::MoveNext()" />
+  <Evolution Source="#73=M:[Backend]Backend.Modules.Shops.ShopModule::OpenShop([Backend]Backend.Models.RXPlayer, System.UInt32)" Target="#74=M:[Backend]Backend.Modules.Shops.ShopModule+&lt;OpenShop&gt;d__5::MoveNext()" />
+  <Evolution Source="#75=M:[Backend]Backend.Modules.Shops.ShopModule::shopBuy([Backend]Backend.Models.RXPlayer, System.String)" Target="#76=M:[Backend]Backend.Modules.Shops.ShopModule+&lt;shopBuy&gt;d__6::MoveNext()" />
+  <Evolution Source="#77=M:[Backend]Backend.Modules.Player.LoginModule::OnPlayerConnect([Backend]Backend.Models.RXPlayer)" Target="#78=M:[Backend]Backend.Modules.Player.LoginModule+&lt;OnPlayerConnect&gt;d__4::MoveNext()" />
+  <Evolution Source="#79=M:[Backend]Backend.Modules.Player.LoginModule::RegisterUser([Backend]Backend.Models.RXPlayer, System.String)" Target="#80=M:[Backend]Backend.Modules.Player.LoginModule+&lt;RegisterUser&gt;d__5::MoveNext()" />
+  <Evolution Source="#81=M:[Backend]Backend.Modules.Player.LoginModule::RetryLogin([Backend]Backend.Models.RXPlayer)" Target="#82=M:[Backend]Backend.Modules.Player.LoginModule+&lt;RetryLogin&gt;d__6::MoveNext()" />
+  <Evolution Source="#83=M:[Backend]Backend.Modules.Player.LoginModule::PlayerLogin([Backend]Backend.Models.RXPlayer, System.String)" Target="#84=M:[Backend]Backend.Modules.Player.LoginModule+&lt;PlayerLogin&gt;d__7::MoveNext()" />
+  <Evolution Source="#85=M:[Backend]Backend.Modules.Player.PlayerModule::REQUEST_PEDS_PLAYER_GIVEMONEY_DIALOG([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Target="#86=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;REQUEST_PEDS_PLAYER_GIVEMONEY_DIALOG&gt;d__1::MoveNext()" />
+  <Evolution Source="#87=M:[Backend]Backend.Modules.Player.PlayerModule::REQUEST_PEDS_PLAYER_SHOW_PERSO([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Target="#88=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;REQUEST_PEDS_PLAYER_SHOW_PERSO&gt;d__2::MoveNext()" />
+  <Evolution Source="#89=M:[Backend]Backend.Modules.Player.PlayerModule::REQUEST_PEDS_PLAYER_GETPERSO([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Target="#90=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;REQUEST_PEDS_PLAYER_GETPERSO&gt;d__3::MoveNext()" />
+  <Evolution Source="#91=M:[Backend]Backend.Modules.Player.PlayerModule::REQUEST_PEDS_PLAYER_TIE([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Target="#92=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;REQUEST_PEDS_PLAYER_TIE&gt;d__4::MoveNext()" />
+  <Evolution Source="#93=M:[Backend]Backend.Modules.Player.PlayerModule::REQUEST_PEDS_PLAYER_TAKEPERSON([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Target="#94=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;REQUEST_PEDS_PLAYER_TAKEPERSON&gt;d__5::MoveNext()" />
+  <Evolution Source="#95=M:[Backend]Backend.Modules.Player.PlayerModule::REQUEST_PEDS_PLAYER_GIVEITEM([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Target="#96=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;REQUEST_PEDS_PLAYER_GIVEITEM&gt;d__6::MoveNext()" />
+  <Evolution Source="#97=M:[Backend]Backend.Modules.Player.PlayerModule::GivePlayerMoney([Backend]Backend.Models.RXPlayer, System.String, System.Int32)" Target="#98=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;GivePlayerMoney&gt;d__7::MoveNext()" />
+  <Evolution Source="#99=M:[Backend]Backend.Modules.Player.PlayerModule::OnFiveSecond()" Target="#100=M:[Backend]Backend.Modules.Player.PlayerModule+&lt;OnFiveSecond&gt;d__8::MoveNext()" />
+  <Evolution Source="#101=M:[Backend]Backend.Modules.Player.SaveModule::OnTenSecond()" Target="#102=M:[Backend]Backend.Modules.Player.SaveModule+&lt;OnTenSecond&gt;d__2::MoveNext()" />
+  <Evolution Source="#103=M:[Backend]Backend.Modules.Phone.PhoneModule::Keks([Backend]Backend.Models.RXPlayer, System.Boolean)" Target="#104=M:[Backend]Backend.Modules.Phone.PhoneModule+&lt;Keks&gt;d__1::MoveNext()" />
+  <Evolution Source="#105=M:[Backend]Backend.Modules.Phone.PhoneModule::requestPhoneWallpaper([Backend]Backend.Models.RXPlayer)" Target="#106=M:[Backend]Backend.Modules.Phone.PhoneModule+&lt;requestPhoneWallpaper&gt;d__2::MoveNext()" />
+  <Evolution Source="#107=M:[Backend]Backend.Modules.Phone.PhoneModule::requestApps([Backend]Backend.Models.RXPlayer)" Target="#108=M:[Backend]Backend.Modules.Phone.PhoneModule+&lt;requestApps&gt;d__3::MoveNext()" />
+  <Evolution Source="#109=M:[Backend]Backend.Modules.Inventory.ContainerModule::Load()" Target="#110=M:[Backend]Backend.Modules.Inventory.ContainerModule+&lt;Load&gt;d__3::MoveNext()" />
+  <Evolution Source="#111=M:[Backend]Backend.Modules.Inventory.ContainerModule::OnTwoSecond()" Target="#112=M:[Backend]Backend.Modules.Inventory.ContainerModule+&lt;OnTwoSecond&gt;d__4::MoveNext()" />
+  <Evolution Source="#113=M:[Backend]Backend.Modules.Inventory.ContainerModule::RefreshContainersAsync()" Target="#114=M:[Backend]Backend.Modules.Inventory.ContainerModule+&lt;RefreshContainersAsync&gt;d__5::MoveNext()" />
+  <Evolution Source="#115=M:[Backend]Backend.Modules.Inventory.InventoryModule::requestInventory([Backend]Backend.Models.RXPlayer)" Target="#116=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;requestInventory&gt;d__1::MoveNext()" />
+  <Evolution Source="#117=M:[Backend]Backend.Modules.Inventory.InventoryModule::fillInventorySlots([Backend]Backend.Models.RXPlayer, System.Int32)" Target="#118=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;fillInventorySlots&gt;d__2::MoveNext()" />
+  <Evolution Source="#119=M:[Backend]Backend.Modules.Inventory.InventoryModule::moveItemInInventory([Backend]Backend.Models.RXPlayer, System.Int32, System.Int32, System.Int32, System.Int32)" Target="#120=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;moveItemInInventory&gt;d__3::MoveNext()" />
+  <Evolution Source="#121=M:[Backend]Backend.Modules.Inventory.InventoryModule::moveItemToInventory([Backend]Backend.Models.RXPlayer, System.Int32, System.Int32, System.Int32, System.Int32)" Target="#122=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;moveItemToInventory&gt;d__4::MoveNext()" />
+  <Evolution Source="#123=M:[Backend]Backend.Modules.Inventory.InventoryModule::MoveItemToInventory([Backend]Backend.Models.RXPlayer, System.Int32, System.Int32, System.Int32, System.Int32)" Target="#124=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;MoveItemToInventory&gt;d__5::MoveNext()" />
+  <Evolution Source="#125=M:[Backend]Backend.Modules.Inventory.InventoryModule::dropInventoryItem([Backend]Backend.Models.RXPlayer, System.Int32, System.Int32)" Target="#126=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;dropInventoryItem&gt;d__6::MoveNext()" />
+  <Evolution Source="#127=M:[Backend]Backend.Modules.Inventory.InventoryModule::giveInventoryItem([Backend]Backend.Models.RXPlayer, System.Int32, System.Int32)" Target="#128=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;giveInventoryItem&gt;d__7::MoveNext()" />
+  <Evolution Source="#129=M:[Backend]Backend.Modules.Inventory.InventoryModule::useInventoryItem([Backend]Backend.Models.RXPlayer, System.Int32)" Target="#130=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;useInventoryItem&gt;d__8::MoveNext()" />
+  <Evolution Source="#131=M:[Backend]Backend.Modules.Inventory.InventoryModule::Pressed_PUNKT([Backend]Backend.Models.RXPlayer)" Target="#132=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;Pressed_PUNKT&gt;d__9::MoveNext()" />
+  <Evolution Source="#133=M:[Backend]Backend.Modules.Inventory.InventoryModule::Pressed_KOMMA([Backend]Backend.Models.RXPlayer)" Target="#134=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;Pressed_KOMMA&gt;d__10::MoveNext()" />
+  <Evolution Source="#135=M:[Backend]Backend.Modules.Inventory.InventoryModule::packArmor([Backend]Backend.Models.RXPlayer)" Target="#136=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;packArmor&gt;d__11::MoveNext()" />
+  <Evolution Source="#137=M:[Backend]Backend.Modules.Inventory.InventoryModule::packGun([Backend]Backend.Models.RXPlayer)" Target="#138=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;packGun&gt;d__12::MoveNext()" />
+  <Evolution Source="#139=M:[Backend]Backend.Modules.Inventory.InventoryModule::takeOutVest([Backend]Backend.Models.RXPlayer)" Target="#140=M:[Backend]Backend.Modules.Inventory.InventoryModule+&lt;takeOutVest&gt;d__13::MoveNext()" />
+  <Evolution Source="#141=M:[Backend]Backend.Modules.Inventory.ItemModelModule::Load()" Target="#142=M:[Backend]Backend.Modules.Inventory.ItemModelModule+&lt;Load&gt;d__2::MoveNext()" />
+  <Evolution Source="#143=M:[Backend]Backend.Modules.Inventory.ItemScripts::PressedE([Backend]Backend.Models.RXPlayer)" Target="#144=M:[Backend]Backend.Modules.Inventory.ItemScripts+&lt;PressedE&gt;d__1::MoveNext()" />
+  <Evolution Source="#145=M:[Backend]Backend.Modules.Inventory.ItemScripts::RunScript([Backend]Backend.Models.RXPlayer, System.String)" Target="#146=M:[Backend]Backend.Modules.Inventory.ItemScripts+&lt;RunScript&gt;d__2::MoveNext()" />
+  <Evolution Source="#147=M:[Backend]Backend.Modules.Inventory.ItemScripts::Bulletproof([Backend]Backend.Models.RXPlayer)" Target="#148=M:[Backend]Backend.Modules.Inventory.ItemScripts+&lt;Bulletproof&gt;d__3::MoveNext()" />
+  <Evolution Source="#149=M:[Backend]Backend.Modules.Inventory.ItemScripts::Medkit([Backend]Backend.Models.RXPlayer)" Target="#150=M:[Backend]Backend.Modules.Inventory.ItemScripts+&lt;Medkit&gt;d__4::MoveNext()" />
+  <Evolution Source="#151=M:[Backend]Backend.Modules.Inventory.ItemScripts::Repairkit([Backend]Backend.Models.RXPlayer)" Target="#152=M:[Backend]Backend.Modules.Inventory.ItemScripts+&lt;Repairkit&gt;d__5::MoveNext()" />
+  <Evolution Source="#153=M:[Backend]Backend.Modules.Gas.GasStationModule::Load()" Target="#154=M:[Backend]Backend.Modules.Gas.GasStationModule+&lt;Load&gt;d__4::MoveNext()" />
+  <Evolution Source="#155=M:[Backend]Backend.Modules.Gas.GasStationModule::fillvehicle([Backend]Backend.Models.RXPlayer, System.String)" Target="#156=M:[Backend]Backend.Modules.Gas.GasStationModule+&lt;fillvehicle&gt;d__5::MoveNext()" />
+  <Evolution Source="#157=M:[Backend]Backend.Modules.Gas.GasStationModule::REQUEST_VEHICLE_FILL_FUEL([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle)" Target="#158=M:[Backend]Backend.Modules.Gas.GasStationModule+&lt;REQUEST_VEHICLE_FILL_FUEL&gt;d__6::MoveNext()" />
+  <Evolution Source="#159=M:[Backend]Backend.Modules.Gas.GasStationModule::OnColShape([Backend]Backend.Models.RXColShape, [Backend]Backend.Models.RXPlayer, System.Boolean)" Target="#160=M:[Backend]Backend.Modules.Gas.GasStationModule+&lt;OnColShape&gt;d__7::MoveNext()" />
+  <Evolution Source="#161=M:[Backend]Backend.Modules.Gas.GasStationModule::OnHour()" Target="#162=M:[Backend]Backend.Modules.Gas.GasStationModule+&lt;OnHour&gt;d__8::MoveNext()" />
+  <Evolution Source="#163=M:[Backend]Backend.Modules.Garage.GarageModule::OpenGarage([Backend]Backend.Models.RXPlayer, System.UInt32)" Target="#164=M:[Backend]Backend.Modules.Garage.GarageModule+&lt;OpenGarage&gt;d__3::MoveNext()" />
+  <Evolution Source="#165=M:[Backend]Backend.Modules.Garage.GarageModule::requestVehicleList([Backend]Backend.Models.RXPlayer, System.UInt32, System.String)" Target="#166=M:[Backend]Backend.Modules.Garage.GarageModule+&lt;requestVehicleList&gt;d__4::MoveNext()" />
+  <Evolution Source="#167=M:[Backend]Backend.Modules.Garage.GarageModule::requestVehicle([Backend]Backend.Models.RXPlayer, System.String, System.UInt32, System.UInt32)" Target="#168=M:[Backend]Backend.Modules.Garage.GarageModule+&lt;requestVehicle&gt;d__5::MoveNext()" />
+  <Evolution Source="#169=M:[Backend]Backend.Modules.Commands.AdminCommands::pos([Backend]Backend.Models.RXPlayer, System.String[])" Target="#170=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;pos&gt;d__2::MoveNext()" />
+  <Evolution Source="#171=M:[Backend]Backend.Modules.Commands.AdminCommands::aduty([Backend]Backend.Models.RXPlayer, System.String[])" Target="#172=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;aduty&gt;d__3::MoveNext()" />
+  <Evolution Source="#173=M:[Backend]Backend.Modules.Commands.AdminCommands::v([Backend]Backend.Models.RXPlayer, System.String[])" Target="#174=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;v&gt;d__4::MoveNext()" />
+  <Evolution Source="#175=M:[Backend]Backend.Modules.Commands.AdminCommands::askin([Backend]Backend.Models.RXPlayer, System.String[])" Target="#176=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;askin&gt;d__5::MoveNext()" />
+  <Evolution Source="#177=M:[Backend]Backend.Modules.Commands.AdminCommands::staatskonto([Backend]Backend.Models.RXPlayer, System.String[])" Target="#178=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;staatskonto&gt;d__6::MoveNext()" />
+  <Evolution Source="#179=M:[Backend]Backend.Modules.Commands.AdminCommands::reloadskin([Backend]Backend.Models.RXPlayer, System.String[])" Target="#180=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;reloadskin&gt;d__7::MoveNext()" />
+  <Evolution Source="#181=M:[Backend]Backend.Modules.Commands.AdminCommands::go([Backend]Backend.Models.RXPlayer, System.String[])" Target="#182=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;go&gt;d__8::MoveNext()" />
+  <Evolution Source="#183=M:[Backend]Backend.Modules.Commands.AdminCommands::revive([Backend]Backend.Models.RXPlayer, System.String[])" Target="#184=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;revive&gt;d__9::MoveNext()" />
+  <Evolution Source="#185=M:[Backend]Backend.Modules.Commands.AdminCommands::get([Backend]Backend.Models.RXPlayer, System.String[])" Target="#186=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;get&gt;d__10::MoveNext()" />
+  <Evolution Source="#187=M:[Backend]Backend.Modules.Commands.AdminCommands::uncuff([Backend]Backend.Models.RXPlayer, System.String[])" Target="#188=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;uncuff&gt;d__11::MoveNext()" />
+  <Evolution Source="#189=M:[Backend]Backend.Modules.Commands.AdminCommands::kick([Backend]Backend.Models.RXPlayer, System.String[])" Target="#190=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;kick&gt;d__12::MoveNext()" />
+  <Evolution Source="#191=M:[Backend]Backend.Modules.Commands.AdminCommands::setrank([Backend]Backend.Models.RXPlayer, System.String[])" Target="#192=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;setrank&gt;d__13::MoveNext()" />
+  <Evolution Source="#193=M:[Backend]Backend.Modules.Commands.AdminCommands::veh([Backend]Backend.Models.RXPlayer, System.String[])" Target="#194=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;veh&gt;d__14::MoveNext()" />
+  <Evolution Source="#195=M:[Backend]Backend.Modules.Commands.AdminCommands::parkveh([Backend]Backend.Models.RXPlayer, System.String[])" Target="#196=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;parkveh&gt;d__15::MoveNext()" />
+  <Evolution Source="#197=M:[Backend]Backend.Modules.Commands.AdminCommands::dv([Backend]Backend.Models.RXPlayer, System.String[])" Target="#198=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;dv&gt;d__16::MoveNext()" />
+  <Evolution Source="#199=M:[Backend]Backend.Modules.Commands.AdminCommands::parkall([Backend]Backend.Models.RXPlayer, System.String[])" Target="#200=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;parkall&gt;d__17::MoveNext()" />
+  <Evolution Source="#201=M:[Backend]Backend.Modules.Commands.AdminCommands::dvall([Backend]Backend.Models.RXPlayer, System.String[])" Target="#202=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;dvall&gt;d__18::MoveNext()" />
+  <Evolution Source="#203=M:[Backend]Backend.Modules.Commands.AdminCommands::dvradius([Backend]Backend.Models.RXPlayer, System.String[])" Target="#204=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;dvradius&gt;d__19::MoveNext()" />
+  <Evolution Source="#205=M:[Backend]Backend.Modules.Commands.AdminCommands::parkradius([Backend]Backend.Models.RXPlayer, System.String[])" Target="#206=M:[Backend]Backend.Modules.Commands.AdminCommands+&lt;parkradius&gt;d__20::MoveNext()" />
+  <Evolution Source="#207=M:[Backend]Backend.Modules.Commands.PlayerCommands::onlist([Backend]Backend.Models.RXPlayer, System.String[])" Target="#208=M:[Backend]Backend.Modules.Commands.PlayerCommands+&lt;onlist&gt;d__1::MoveNext()" />
+  <Evolution Source="#209=M:[Backend]Backend.Modules.ColShape.ColShapeModule::OnColShape([Backend]Backend.Models.RXColShape, [Backend]Backend.Models.RXPlayer, System.Boolean)" Target="#210=M:[Backend]Backend.Modules.ColShape.ColShapeModule+&lt;OnColShape&gt;d__1::MoveNext()" />
+  <Evolution Source="#211=M:[Backend]Backend.Modules.ColShape.ColShapeModule::PressedE([Backend]Backend.Models.RXPlayer)" Target="#212=M:[Backend]Backend.Modules.ColShape.ColShapeModule+&lt;PressedE&gt;d__2::MoveNext()" />
+  <Evolution Source="#213=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::Load()" Target="#214=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule+&lt;Load&gt;d__3::MoveNext()" />
+  <Evolution Source="#215=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::OpenShop([Backend]Backend.Models.RXPlayer, System.UInt32)" Target="#216=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule+&lt;OpenShop&gt;d__4::MoveNext()" />
+  <Evolution Source="#217=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::clothingShopLoadCategories([Backend]Backend.Models.RXPlayer, System.String)" Target="#218=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule+&lt;clothingShopLoadCategories&gt;d__5::MoveNext()" />
+  <Evolution Source="#219=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::clothingShopUndress([Backend]Backend.Models.RXPlayer, System.String)" Target="#220=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule+&lt;clothingShopUndress&gt;d__6::MoveNext()" />
+  <Evolution Source="#221=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::clothingShopDress([Backend]Backend.Models.RXPlayer, System.Int32, System.Int32, System.Int32, System.Boolean)" Target="#222=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule+&lt;clothingShopDress&gt;d__7::MoveNext()" />
+  <Evolution Source="#223=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::clothingShopReset([Backend]Backend.Models.RXPlayer)" Target="#224=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule+&lt;clothingShopReset&gt;d__8::MoveNext()" />
+  <Evolution Source="#225=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::clothingShopBuy([Backend]Backend.Models.RXPlayer, System.String, System.String)" Target="#226=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule+&lt;clothingShopBuy&gt;d__9::MoveNext()" />
+  <Evolution Source="#227=M:[Backend]Backend.Modules.Characters.CharModule::StopCustomization([Backend]Backend.Models.RXPlayer)" Target="#228=M:[Backend]Backend.Modules.Characters.CharModule+&lt;StopCustomization&gt;d__1::MoveNext()" />
+  <Evolution Source="#229=M:[Backend]Backend.Modules.Characters.CharModule::UpdateCharacterCustomization([Backend]Backend.Models.RXPlayer, System.String)" Target="#230=M:[Backend]Backend.Modules.Characters.CharModule+&lt;UpdateCharacterCustomization&gt;d__2::MoveNext()" />
+  <Evolution Source="#231=M:[Backend]Backend.Modules.Bank.BankModule::Load()" Target="#232=M:[Backend]Backend.Modules.Bank.BankModule+&lt;Load&gt;d__4::MoveNext()" />
+  <Evolution Source="#233=M:[Backend]Backend.Modules.Bank.BankModule::OnTwoSecond()" Target="#234=M:[Backend]Backend.Modules.Bank.BankModule+&lt;OnTwoSecond&gt;d__5::MoveNext()" />
+  <Evolution Source="#235=M:[Backend]Backend.Modules.Bank.BankModule::OpenBank([Backend]Backend.Models.RXPlayer, System.UInt32)" Target="#236=M:[Backend]Backend.Modules.Bank.BankModule+&lt;OpenBank&gt;d__6::MoveNext()" />
+  <Evolution Source="#237=M:[Backend]Backend.Modules.Bank.BankModule::bankPayout([Backend]Backend.Models.RXPlayer, System.Int32)" Target="#238=M:[Backend]Backend.Modules.Bank.BankModule+&lt;bankPayout&gt;d__7::MoveNext()" />
+  <Evolution Source="#239=M:[Backend]Backend.Modules.Bank.BankModule::bankDeposit([Backend]Backend.Models.RXPlayer, System.Int32)" Target="#240=M:[Backend]Backend.Modules.Bank.BankModule+&lt;bankDeposit&gt;d__8::MoveNext()" />
+  <Evolution Source="#241=M:[Backend]Backend.Modules.Bank.BankModule::bankTransfer([Backend]Backend.Models.RXPlayer, System.Int32, System.String, System.String)" Target="#242=M:[Backend]Backend.Modules.Bank.BankModule+&lt;bankTransfer&gt;d__9::MoveNext()" />
+  <Evolution Source="#243=M:[Backend]Backend.Modules.Bank.BankModule::BankTransaction([Backend]Backend.Models.RXPlayer, System.Int32, System.Int32)" Target="#244=M:[Backend]Backend.Modules.Bank.BankModule+&lt;BankTransaction&gt;d__10::MoveNext()" />
+  <Evolution Source="#245=M:[Backend]Backend.Modules.Bank.PaymentModule::payBalance([Backend]Backend.Models.RXPlayer, System.Int32)" Target="#246=M:[Backend]Backend.Modules.Bank.PaymentModule+&lt;payBalance&gt;d__2::MoveNext()" />
+  <Evolution Source="#247=M:[Backend]Backend.Modules.Bank.PaymentModule::CreatePayment([Backend]Backend.Models.RXPlayer, System.Int32, System.Action{[Backend]Backend.Models.RXPlayer}, System.String)" Target="#248=M:[Backend]Backend.Modules.Bank.PaymentModule+&lt;CreatePayment&gt;d__3::MoveNext()" />
+  <Evolution Source="#249=M:[Backend]Backend.Modules.Bank.PaymentModule::CreatePaymentWithCancelOption([Backend]Backend.Models.RXPlayer, System.Int32, System.Action{[Backend]Backend.Models.RXPlayer}, System.Action{[Backend]Backend.Models.RXPlayer}, System.String)" Target="#250=M:[Backend]Backend.Modules.Bank.PaymentModule+&lt;CreatePaymentWithCancelOption&gt;d__4::MoveNext()" />
+  <Evolution Source="#251=M:[Backend]Backend.Models.RXPlayer::GetExistsAsync()" Target="#252=M:[Backend]Backend.Models.RXPlayer+&lt;GetExistsAsync&gt;d__0::MoveNext()" />
+  <Evolution Source="#253=M:[Backend]Backend.Models.RXPlayer::GetCurrentWeaponAsync()" Target="#254=M:[Backend]Backend.Models.RXPlayer+&lt;GetCurrentWeaponAsync&gt;d__57::MoveNext()" />
+  <Evolution Source="#255=M:[Backend]Backend.Models.RXPlayer::GetIsInVehicleAsync()" Target="#256=M:[Backend]Backend.Models.RXPlayer+&lt;GetIsInVehicleAsync&gt;d__58::MoveNext()" />
+  <Evolution Source="#257=M:[Backend]Backend.Models.RXPlayer::GetArmorAsync()" Target="#258=M:[Backend]Backend.Models.RXPlayer+&lt;GetArmorAsync&gt;d__59::MoveNext()" />
+  <Evolution Source="#259=M:[Backend]Backend.Models.RXPlayer::SetArmorAsync(System.Int32)" Target="#260=M:[Backend]Backend.Models.RXPlayer+&lt;SetArmorAsync&gt;d__60::MoveNext()" />
+  <Evolution Source="#261=M:[Backend]Backend.Models.RXPlayer::GetHealthAsync()" Target="#262=M:[Backend]Backend.Models.RXPlayer+&lt;GetHealthAsync&gt;d__61::MoveNext()" />
+  <Evolution Source="#263=M:[Backend]Backend.Models.RXPlayer::SetHealthAsync(System.Int32)" Target="#264=M:[Backend]Backend.Models.RXPlayer+&lt;SetHealthAsync&gt;d__62::MoveNext()" />
+  <Evolution Source="#265=M:[Backend]Backend.Models.RXPlayer::GetDimensionAsync()" Target="#266=M:[Backend]Backend.Models.RXPlayer+&lt;GetDimensionAsync&gt;d__63::MoveNext()" />
+  <Evolution Source="#267=M:[Backend]Backend.Models.RXPlayer::SetDimensionAsync(System.UInt32)" Target="#268=M:[Backend]Backend.Models.RXPlayer+&lt;SetDimensionAsync&gt;d__64::MoveNext()" />
+  <Evolution Source="#269=M:[Backend]Backend.Models.RXPlayer::GetPositionAsync()" Target="#270=M:[Backend]Backend.Models.RXPlayer+&lt;GetPositionAsync&gt;d__65::MoveNext()" />
+  <Evolution Source="#271=M:[Backend]Backend.Models.RXPlayer::SetPositionAsync(GTANetworkAPI.Vector3)" Target="#272=M:[Backend]Backend.Models.RXPlayer+&lt;SetPositionAsync&gt;d__66::MoveNext()" />
+  <Evolution Source="#273=M:[Backend]Backend.Models.RXPlayer::GetNameAsync()" Target="#274=M:[Backend]Backend.Models.RXPlayer+&lt;GetNameAsync&gt;d__67::MoveNext()" />
+  <Evolution Source="#275=M:[Backend]Backend.Models.RXPlayer::SetNameAsync(System.String)" Target="#276=M:[Backend]Backend.Models.RXPlayer+&lt;SetNameAsync&gt;d__68::MoveNext()" />
+  <Evolution Source="#277=M:[Backend]Backend.Models.RXPlayer::GetSocialNameAsync()" Target="#278=M:[Backend]Backend.Models.RXPlayer+&lt;GetSocialNameAsync&gt;d__69::MoveNext()" />
+  <Evolution Source="#279=M:[Backend]Backend.Models.RXPlayer::GetAddressAsync()" Target="#280=M:[Backend]Backend.Models.RXPlayer+&lt;GetAddressAsync&gt;d__70::MoveNext()" />
+  <Evolution Source="#281=M:[Backend]Backend.Models.RXPlayer::GetSerialAsync()" Target="#282=M:[Backend]Backend.Models.RXPlayer+&lt;GetSerialAsync&gt;d__71::MoveNext()" />
+  <Evolution Source="#283=M:[Backend]Backend.Models.RXPlayer::SendNotify(System.String, System.Int32, System.String, System.String)" Target="#284=M:[Backend]Backend.Models.RXPlayer+&lt;SendNotify&gt;d__163::MoveNext()" />
+  <Evolution Source="#285=M:[Backend]Backend.Models.RXPlayer::SendGlobalNotify(System.String, System.Int32, System.String, [Backend]Backend.Models.Icon)" Target="#286=M:[Backend]Backend.Models.RXPlayer+&lt;SendGlobalNotify&gt;d__164::MoveNext()" />
+  <Evolution Source="#287=M:[Backend]Backend.Models.RXPlayer::disableAllPlayerActions(System.Boolean)" Target="#288=M:[Backend]Backend.Models.RXPlayer+&lt;disableAllPlayerActions&gt;d__165::MoveNext()" />
+  <Evolution Source="#289=M:[Backend]Backend.Models.RXPlayer::SetDefaultClothes()" Target="#290=M:[Backend]Backend.Models.RXPlayer+&lt;SetDefaultClothes&gt;d__166::MoveNext()" />
+  <Evolution Source="#291=M:[Backend]Backend.Models.RXPlayer::LoadCharacter([Backend]Backend.MySql.Models.DbCharacter)" Target="#292=M:[Backend]Backend.Models.RXPlayer+&lt;LoadCharacter&gt;d__167::MoveNext()" />
+  <Evolution Source="#293=M:[Backend]Backend.Models.RXPlayer::PlayInventoryInteractAnimation(System.Int32)" Target="#294=M:[Backend]Backend.Models.RXPlayer+&lt;PlayInventoryInteractAnimation&gt;d__168::MoveNext()" />
+  <Evolution Source="#295=M:[Backend]Backend.Models.RXPlayer::PlayAnimationAsync(System.Int32, System.String, System.String, System.Single)" Target="#296=M:[Backend]Backend.Models.RXPlayer+&lt;PlayAnimationAsync&gt;d__169::MoveNext()" />
+  <Evolution Source="#297=M:[Backend]Backend.Models.RXPlayer::SendProgressbar(System.Int32)" Target="#298=M:[Backend]Backend.Models.RXPlayer+&lt;SendProgressbar&gt;d__170::MoveNext()" />
+  <Evolution Source="#299=M:[Backend]Backend.Models.RXPlayer::StopProgressbar()" Target="#300=M:[Backend]Backend.Models.RXPlayer+&lt;StopProgressbar&gt;d__171::MoveNext()" />
+  <Evolution Source="#301=M:[Backend]Backend.Models.RXPlayer::StopAnimationAsync()" Target="#302=M:[Backend]Backend.Models.RXPlayer+&lt;StopAnimationAsync&gt;d__172::MoveNext()" />
+  <Evolution Source="#303=M:[Backend]Backend.Models.RXPlayer::RemoveWeaponAsync(GTANetworkAPI.WeaponHash)" Target="#304=M:[Backend]Backend.Models.RXPlayer+&lt;RemoveWeaponAsync&gt;d__173::MoveNext()" />
+  <Evolution Source="#305=M:[Backend]Backend.Models.RXPlayer::GiveWeaponAsync(GTANetworkAPI.WeaponHash, System.Int32)" Target="#306=M:[Backend]Backend.Models.RXPlayer+&lt;GiveWeaponAsync&gt;d__174::MoveNext()" />
+  <Evolution Source="#307=M:[Backend]Backend.Models.RXPlayer::RemoveAllWeaponsAsync()" Target="#308=M:[Backend]Backend.Models.RXPlayer+&lt;RemoveAllWeaponsAsync&gt;d__175::MoveNext()" />
+  <Evolution Source="#309=M:[Backend]Backend.Models.RXPlayer::SetClothesAsync(System.Int32, System.Int32, System.Int32)" Target="#310=M:[Backend]Backend.Models.RXPlayer+&lt;SetClothesAsync&gt;d__176::MoveNext()" />
+  <Evolution Source="#311=M:[Backend]Backend.Models.RXPlayer::SetAccessoriesAsync(System.Int32, System.Int32, System.Int32)" Target="#312=M:[Backend]Backend.Models.RXPlayer+&lt;SetAccessoriesAsync&gt;d__177::MoveNext()" />
+  <Evolution Source="#313=M:[Backend]Backend.Models.RXPlayer::SetFaceFeatureAsync(System.Int32, System.Single)" Target="#314=M:[Backend]Backend.Models.RXPlayer+&lt;SetFaceFeatureAsync&gt;d__178::MoveNext()" />
+  <Evolution Source="#315=M:[Backend]Backend.Models.RXPlayer::SetCustomizationAsync(System.Boolean, GTANetworkAPI.HeadBlend, System.Byte, System.Byte, System.Byte, System.Single[], System.Collections.Generic.Dictionary{System.Int32,[Bootstrapper]GTANetworkAPI.HeadOverlay}, GTANetworkAPI.Decoration[])" Target="#316=M:[Backend]Backend.Models.RXPlayer+&lt;SetCustomizationAsync&gt;d__179::MoveNext()" />
+  <Evolution Source="#317=M:[Backend]Backend.Models.RXPlayer::TriggerEventAsync(System.String, System.Object[])" Target="#318=M:[Backend]Backend.Models.RXPlayer+&lt;TriggerEventAsync&gt;d__180::MoveNext()" />
+  <Evolution Source="#319=M:[Backend]Backend.Models.RXPlayer::UpdateHeadBlendAsync(System.Single, System.Single, System.Single)" Target="#320=M:[Backend]Backend.Models.RXPlayer+&lt;UpdateHeadBlendAsync&gt;d__182::MoveNext()" />
+  <Evolution Source="#321=M:[Backend]Backend.Models.RXPlayer::EvalAsync(System.String)" Target="#322=M:[Backend]Backend.Models.RXPlayer+&lt;EvalAsync&gt;d__183::MoveNext()" />
+  <Evolution Source="#323=M:[Backend]Backend.Models.RXPlayer::KickAsync(System.String)" Target="#324=M:[Backend]Backend.Models.RXPlayer+&lt;KickAsync&gt;d__184::MoveNext()" />
+  <Evolution Source="#325=M:[Backend]Backend.Models.RXPlayer::SendNotificationAsync(System.String, System.Boolean)" Target="#326=M:[Backend]Backend.Models.RXPlayer+&lt;SendNotificationAsync&gt;d__185::MoveNext()" />
+  <Evolution Source="#327=M:[Backend]Backend.Models.RXPlayer::AddWeaponTo
+			 (GTANetworkAPI.WeaponHash, System.Boolean, System.Int32)" Target="#328=M:[Backend]Backend.Models.RXPlayer+&lt;AddWeaponToLoadout&gt;d__186::MoveNext()" />
+  <Evolution Source="#329=M:[Backend]Backend.Models.RXPlayer::RemoveWeaponFromLoadout(GTANetworkAPI.WeaponHash, System.Boolean)" Target="#330=M:[Backend]Backend.Models.RXPlayer+&lt;RemoveWeaponFromLoadout&gt;d__187::MoveNext()" />
+  <Evolution Source="#331=M:[Backend]Backend.Models.RXPlayer::ClearLoadout(System.Boolean)" Target="#332=M:[Backend]Backend.Models.RXPlayer+&lt;ClearLoadout&gt;d__188::MoveNext()" />
+  <Evolution Source="#333=M:[Backend]Backend.Models.RXPlayer::TakeAnyMoney(System.Int32, System.String, System.Boolean)" Target="#334=M:[Backend]Backend.Models.RXPlayer+&lt;TakeAnyMoney&gt;d__189::MoveNext()" />
+  <Evolution Source="#335=M:[Backend]Backend.Models.RXPlayer::TakeMoney(System.Int32)" Target="#336=M:[Backend]Backend.Models.RXPlayer+&lt;TakeMoney&gt;d__190::MoveNext()" />
+  <Evolution Source="#337=M:[Backend]Backend.Models.RXPlayer::GiveMoney(System.Int32)" Target="#338=M:[Backend]Backend.Models.RXPlayer+&lt;GiveMoney&gt;d__191::MoveNext()" />
+  <Evolution Source="#339=M:[Backend]Backend.Models.RXPlayer::CanInteractAntiFlood(System.Int32)" Target="#340=M:[Backend]Backend.Models.RXPlayer+&lt;CanInteractAntiFlood&gt;d__192::MoveNext()" />
+  <Evolution Source="#341=M:[Backend]Backend.Models.RXPlayer::CanInteractAntiFloodNoMSG(System.Double)" Target="#342=M:[Backend]Backend.Models.RXPlayer+&lt;CanInteractAntiFloodNoMSG&gt;d__193::MoveNext()" />
+  <Evolution Source="#343=M:[Backend]Backend.Models.RXPlayer::SendInfocard(System.String, System.String, System.String, System.Int32, System.Collections.Generic.Dictionary{System.String,System.String})" Target="#344=M:[Backend]Backend.Models.RXPlayer+&lt;SendInfocard&gt;d__196::MoveNext()" />
+  <Evolution Source="#345=M:[Backend]Backend.Models.RXPlayer::ShowIdCard([Backend]Backend.Models.RXPlayer)" Target="#346=M:[Backend]Backend.Models.RXPlayer+&lt;ShowIdCard&gt;d__197::MoveNext()" />
+  <Evolution Source="#347=M:[Backend]Backend.Models.RXPlayer::SetTied(System.Boolean, System.Boolean)" Target="#348=M:[Backend]Backend.Models.RXPlayer+&lt;SetTied&gt;d__198::MoveNext()" />
+  <Evolution Source="#349=M:[Backend]Backend.Models.RXVehicle::SetEngineStatus(System.Boolean)" Target="#350=M:[Backend]Backend.Models.RXVehicle+&lt;SetEngineStatus&gt;d__63::MoveNext()" />
+  <Evolution Source="#351=M:[Backend]Backend.Models.RXVehicle::SetLocked(System.Boolean)" Target="#352=M:[Backend]Backend.Models.RXVehicle+&lt;SetLocked&gt;d__64::MoveNext()" />
+  <Evolution Source="#353=M:[Backend]Backend.Models.RXWindow::OpenWindow([Backend]Backend.Models.RXPlayer, System.Object)" Target="#354=M:[Backend]Backend.Models.RXWindow+&lt;OpenWindow&gt;d__4::MoveNext()" />
+  <Evolution Source="#355=M:[Backend]Backend.Models.RXWindow::OpenWindowStr([Backend]Backend.Models.RXPlayer, System.String)" Target="#356=M:[Backend]Backend.Models.RXWindow+&lt;OpenWindowStr&gt;d__5::MoveNext()" />
+  <Evolution Source="#357=M:[Backend]Backend.Models.RXWindow::CloseWindow([Backend]Backend.Models.RXPlayer)" Target="#358=M:[Backend]Backend.Models.RXWindow+&lt;CloseWindow&gt;d__6::MoveNext()" />
+  <Evolution Source="#359=M:[Backend]Backend.Models.RXWindow::TriggerEvent([Backend]Backend.Models.RXPlayer, System.String, System.String)" Target="#360=M:[Backend]Backend.Models.RXWindow+&lt;TriggerEvent&gt;d__7::MoveNext()" />
+  <Evolution Source="#361=M:[Backend]Backend.Controllers.CommandController::PlayerChat([Backend]Backend.Models.RXPlayer, System.String)" Target="#362=M:[Backend]Backend.Controllers.CommandController+&lt;PlayerChat&gt;d__0::MoveNext()" />
+  <Evolution Source="#363=M:[Backend]Backend.Controllers.ModuleController::LoadAll([Backend]Backend.MySql.RXContext)" Target="#364=M:[Backend]Backend.Controllers.ModuleController+&lt;LoadAll&gt;d__5::MoveNext()" />
+  <Evolution Source="#365=M:[Backend]Backend.Controllers.ModuleController::OnPlayerConnect([Backend]Backend.Models.RXPlayer)" Target="#366=M:[Backend]Backend.Controllers.ModuleController+&lt;OnPlayerConnect&gt;d__8::MoveNext()" />
+  <Evolution Source="#367=M:[Backend]Backend.Controllers.ModuleController::OnPlayerDisconnect([Backend]Backend.Models.RXPlayer, GTANetworkAPI.DisconnectionType, System.String)" Target="#368=M:[Backend]Backend.Controllers.ModuleController+&lt;OnPlayerDisconnect&gt;d__9::MoveNext()" />
+  <Evolution Source="#369=M:[Backend]Backend.Controllers.ModuleController::OnColShapeEnter([Backend]Backend.Models.RXColShape, [Backend]Backend.Models.RXPlayer)" Target="#370=M:[Backend]Backend.Controllers.ModuleController+&lt;OnColShapeEnter&gt;d__10::MoveNext()" />
+  <Evolution Source="#371=M:[Backend]Backend.Controllers.ModuleController::OnColShapeExit([Backend]Backend.Models.RXColShape, [Backend]Backend.Models.RXPlayer)" Target="#372=M:[Backend]Backend.Controllers.ModuleController+&lt;OnColShapeExit&gt;d__11::MoveNext()" />
+  <Evolution Source="#373=M:[Backend]Backend.Controllers.ModuleController::OnPlayerDeath([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer, System.UInt32)" Target="#374=M:[Backend]Backend.Controllers.ModuleController+&lt;OnPlayerDeath&gt;d__12::MoveNext()" />
+  <Evolution Source="#375=M:[Backend]Backend.Controllers.ModuleController::Pressed_E([Backend]Backend.Models.RXPlayer)" Target="#376=M:[Backend]Backend.Controllers.ModuleController+&lt;Pressed_E&gt;d__13::MoveNext()" />
+  <Evolution Source="#377=M:[Backend]Backend.Controllers.ModuleController::Pressed_L([Backend]Backend.Models.RXPlayer)" Target="#378=M:[Backend]Backend.Controllers.ModuleController+&lt;Pressed_L&gt;d__14::MoveNext()" />
+  <Evolution Source="#379=M:[Backend]Backend.Controllers.ModuleController::Pressed_K([Backend]Backend.Models.RXPlayer)" Target="#380=M:[Backend]Backend.Controllers.ModuleController+&lt;Pressed_K&gt;d__15::MoveNext()" />
+  <Evolution Source="#381=M:[Backend]Backend.Controllers.ModuleController::OnTwoSecond()" Target="#382=M:[Backend]Backend.Controllers.ModuleController+&lt;OnTwoSecond&gt;d__16::MoveNext()" />
+  <Evolution Source="#383=M:[Backend]Backend.Controllers.ModuleController::OnTenSecond()" Target="#384=M:[Backend]Backend.Controllers.ModuleController+&lt;OnTenSecond&gt;d__17::MoveNext()" />
+  <Evolution Source="#385=M:[Backend]Backend.Controllers.ModuleController::OnFiveSecond()" Target="#386=M:[Backend]Backend.Controllers.ModuleController+&lt;OnFiveSecond&gt;d__18::MoveNext()" />
+  <Evolution Source="#387=M:[Backend]Backend.Controllers.ModuleController::OnTenMinute()" Target="#388=M:[Backend]Backend.Controllers.ModuleController+&lt;OnTenMinute&gt;d__19::MoveNext()" />
+  <Evolution Source="#389=M:[Backend]Backend.Controllers.ModuleController::OnHour()" Target="#390=M:[Backend]Backend.Controllers.ModuleController+&lt;OnHour&gt;d__20::MoveNext()" />
+  <Evolution Source="#391=M:[Backend]Backend.Controllers.NPCController::OnPlayerJoinAsync([Backend]Backend.Models.RXPlayer)" Target="#392=M:[Backend]Backend.Controllers.NPCController+&lt;OnPlayerJoinAsync&gt;d__0::MoveNext()" />
+  <Evolution Source="#393=M:[Backend]Backend.Controllers.PlayerController::FindPlayerById(System.Object, System.Boolean)" Target="#394=M:[Backend]Backend.Controllers.PlayerController+&lt;FindPlayerById&gt;d__2::MoveNext()" />
+  <Evolution Source="#395=M:[Backend]Backend.Controllers.PlayerController::FindPlayerByName(System.Object, System.Boolean)" Target="#396=M:[Backend]Backend.Controllers.PlayerController+&lt;FindPlayerByName&gt;d__3::MoveNext()" />
+  <Evolution Source="#397=M:[Backend]Backend.Controllers.PlayerController::FindPlayerByStartsName(System.String, System.Boolean)" Target="#398=M:[Backend]Backend.Controllers.PlayerController+&lt;FindPlayerByStartsName&gt;d__4::MoveNext()" />
+  <Evolution Source="#399=M:[Backend]Backend.Controllers.PlayerController::GetPlayersInRange(GTANetworkAPI.Vector3, System.Single)" Target="#400=M:[Backend]Backend.Controllers.PlayerController+&lt;GetPlayersInRange&gt;d__5::MoveNext()" />
+  <Class Class="#401=T:[PostSharp]PostSharp.Serialization.PSerializableAttribute">
+    <Instance Declaration="#402=T:[Backend]Backend.Utils.ExceptionAspect+HandleExceptionsAttribute" Id="7c91651c47b7e8c5">
+      <Target />
+    </Instance>
+  </Class>
+  <Class Class="#402">
+    <Instance Declaration="#403=M:[Backend]Backend.Resource::OnStartAsync()" Id="7c91651ce095b676">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404=Wrapped by advice(s) OnException" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#405=M:[Backend]Backend.RX::SendGlobalNotifyToAll(System.String, System.Int32, System.String, [Backend]Backend.Models.Icon)" Id="7c91651c481dc693">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#406=M:[Backend]Backend.RX::SendGlobalNotifyToAllWhich(System.Predicate{[Backend]Backend.Models.RXPlayer}, System.String, System.Int32, System.String, [Backend]Backend.Models.Icon)" Id="7c91651c03cb40bc">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#407=M:[Backend]Backend.RX::SendNotifyToAll(System.String, System.Int32, System.String, System.String)" Id="7c91651cca3112c6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#408=M:[Backend]Backend.RX::SendNotifyToAllWhich(System.Predicate{[Backend]Backend.Models.RXPlayer}, System.String, System.Int32, System.String, System.String)" Id="7c91651c2848e4ff">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#1" Id="7c91651c3b81d7e8">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#3" Id="7c91651c5de31a0a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="6" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#409=M:[Backend]Backend.RX::CreateHeadOverlay(System.Byte, System.Byte, System.Byte, System.Single)" Id="7c91651c6451bab0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="7" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#410=M:[Backend]Backend.RX::PlayerExists([Backend]Backend.Models.RXPlayer)" Id="7c91651cd1918663">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="8" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#411=M:[Backend]Backend.Utils.Logger::Print(System.String)" Id="7c91651c8a7bb2a3">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="9" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#412=M:[Backend]Backend.Utils.Logger::Debug2([Backend]Backend.Models.RXPlayer, System.String)" Id="7c91651c80878142">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="10" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#413=M:[Backend]Backend.Utils.Logger::Debug(System.String)" Id="7c91651cbebdb403">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="11" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#414=M:[Backend]Backend.Utils.Extensions.ClientTaskExtensions::RunReturnAsync{T}(GTANetworkMethods.Task, System.Func{T})" Id="7c91651cbfc81ca3">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="12" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#415=M:[Backend]Backend.Utils.Extensions.ClientTaskExtensions::RunReturn{T}(GTANetworkMethods.Task, System.Func{T})" Id="7c91651cabc6eff6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="13" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#416=M:[Backend]Backend.Utils.Extensions.ClientTaskExtensions::RunAsync(GTANetworkMethods.Task, System.Action)" Id="7c91651c658c9a27">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="14" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5" Id="7c91651c48ded2dd">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="15" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7" Id="7c91651cc33c446d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="16" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#9" Id="7c91651c09813aeb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="17" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#417=M:[Backend]Backend.Utils.Extensions.EnumerableExtensions::forEachAlternative{T}(System.Collections.Generic.IEnumerable{T}, System.Action{T})" Id="7c91651c91974b1c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="18" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#418=M:[Backend]Backend.Utils.Extensions.EnumerableExtensions::forEachDefault{T}(System.Collections.Generic.IEnumerable{T}, System.Action{T})" Id="7c91651cf2823464">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="19" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#419=M:[Backend]Backend.Utils.Extensions.EnumerableExtensions::ChunkBy{T}(System.Collections.Generic.List{T}, System.Int32)" Id="7c91651c16237433">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="20" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#420=M:[Backend]Backend.Utils.Extensions.StringExtensions::FormatMoneyNumber(System.UInt32)" Id="7c91651c5c892428">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="21" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#421=M:[Backend]Backend.Utils.Extensions.StringExtensions::FormatMoneyNumber(System.Int32)" Id="7c91651c15f9fe4a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="22" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#422=M:[Backend]Backend.Utils.Extensions.StringExtensions::ContainsSymbols(System.String)" Id="7c91651cb2ab3220">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="23" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#423=M:[Backend]Backend.Utils.Extensions.StringExtensions::ToPos(System.String)" Id="7c91651c2b39f3e1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="24" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#424=M:[Backend]Backend.Utils.Extensions.StringExtensions::FromPos(GTANetworkAPI.Vector3)" Id="7c91651ce4273042">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="25" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#425=M:[Backend]Backend.Utils.Extensions.StringExtensions::IsValidJson{T}(System.String)" Id="7c91651cecaa6c98">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="26" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#426=P:[Backend]Backend.Models.RXPlayer::Cash()" Id="7c91651c00088bae">
+      <Target Target="#427=M:[Backend]Backend.Models.RXPlayer::get_Cash()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="192" />
+      </Target>
+      <Target Target="#428=M:[Backend]Backend.Models.RXPlayer::set_Cash(System.Int32)" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="193" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#429=P:[Backend]Backend.Models.RXPlayer::Blackmoney()" Id="7c91651c5f267f83">
+      <Target Target="#430=M:[Backend]Backend.Models.RXPlayer::get_Blackmoney()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="194" />
+      </Target>
+      <Target Target="#431=M:[Backend]Backend.Models.RXPlayer::set_Blackmoney(System.Int32)" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="195" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#432=P:[Backend]Backend.Models.RXPlayer::Freezed()" Id="7c91651cbc60ef5f">
+      <Target Target="#433=M:[Backend]Backend.Models.RXPlayer::get_Freezed()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="196" />
+      </Target>
+      <Target Target="#434=M:[Backend]Backend.Models.RXPlayer::set_Freezed(System.Boolean)" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="197" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#435=P:[Backend]Backend.Models.RXPlayer::Seatbelt()" Id="7c91651c4d349977">
+      <Target Target="#436=M:[Backend]Backend.Models.RXPlayer::get_Seatbelt()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="198" />
+      </Target>
+      <Target Target="#437=M:[Backend]Backend.Models.RXPlayer::set_Seatbelt(System.Boolean)" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="199" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#438=P:[Backend]Backend.Models.RXPlayer::Invincible()" Id="7c91651cfd056dc6">
+      <Target Target="#439=M:[Backend]Backend.Models.RXPlayer::get_Invincible()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="200" />
+      </Target>
+      <Target Target="#440=M:[Backend]Backend.Models.RXPlayer::set_Invincible(System.Boolean)" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="201" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#441=P:[Backend]Backend.Models.RXPlayer::Invisible()" Id="7c91651c5feb52c9">
+      <Target Target="#442=M:[Backend]Backend.Models.RXPlayer::get_Invisible()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="202" />
+      </Target>
+      <Target Target="#443=M:[Backend]Backend.Models.RXPlayer::set_Invisible(System.Boolean)" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="203" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#444=P:[Backend]Backend.Models.RXPlayer::Container()" Id="7c91651c1019e1a3">
+      <Target Target="#445=M:[Backend]Backend.Models.RXPlayer::get_Container()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="204" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#446=P:[Backend]Backend.Models.RXPlayer::BankAccount()" Id="7c91651cccce551f">
+      <Target Target="#447=M:[Backend]Backend.Models.RXPlayer::get_BankAccount()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="205" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#448=P:[Backend]Backend.Models.RXVehicle::Container()" Id="7c91651c090941f4">
+      <Target Target="#449=M:[Backend]Backend.Models.RXVehicle::get_Container()" LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="242" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#11" Id="7c91651cc8d72c78">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="27" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#13" Id="7c91651c6b397ad6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="28" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#15" Id="7c91651c0d4b34d0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="29" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#17" Id="7c91651ca887487d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="30" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#19" Id="7c91651c6d498736">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="31" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#21" Id="7c91651c25ad3969">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="32" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#23" Id="7c91651c4908c46c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="33" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#25" Id="7c91651ca9d2484f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="34" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#27" Id="7c91651ccd65315f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="35" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#29" Id="7c91651c69b5909d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="36" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#31" Id="7c91651c56d1eb2d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="37" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#33" Id="7c91651cd3f5d8cc">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="38" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#35" Id="7c91651c7aadaccc">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="39" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#450=M:[Backend]Backend.Modules.RXModule::RequireModule(System.String)" Id="7c91651c1148e25e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="40" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#37" Id="7c91651c0fb0a1fa">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="41" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#39" Id="7c91651cc579ebf3">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="42" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#451=M:[Backend]Backend.Modules.Voice.VoiceModule::changeVoiceRange([Backend]Backend.Models.RXPlayer)" Id="7c91651c2ccafab9">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="43" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#452=M:[Backend]Backend.Modules.Vehicle.VehicleModelModule::Load()" Id="7c91651c262d63d7">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="44" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#41" Id="7c91651c5b217ee1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="45" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#453=M:[Backend]Backend.Modules.Vehicle.VehicleModule::PlayerEnterVehicleTask([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle, System.SByte)" Id="7c91651c284abbbb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="46" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#454=M:[Backend]Backend.Modules.Vehicle.VehicleModule::PlayerExitVehicleTask([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle)" Id="7c91651c03325945">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="47" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#455=M:[Backend]Backend.Modules.Vehicle.VehicleModule::updateVehicleDistance([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXVehicle, System.Double, System.Double)" Id="7c91651ca41c9b90">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="48" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#43" Id="7c91651cc0c5797d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="49" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#45" Id="7c91651c85a17396">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="50" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#47" Id="7c91651c7bd0d522">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="51" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#49" Id="7c91651c875b0ee1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="52" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#51" Id="7c91651c31c019ee">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="53" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#53" Id="7c91651cc2d46d60">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="54" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#55" Id="7c91651c503b657d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="55" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#57" Id="7c91651c072292e8">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="56" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#59" Id="7c91651cc13acb8c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="57" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#61" Id="7c91651cef43423d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="58" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#63" Id="7c91651cd404c2ec">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="59" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#65" Id="7c91651cfd129d3f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="60" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#456=M:[Backend]Backend.Modules.Vehicle.VehicleShopModule::Load()" Id="7c91651cbaa4c857">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="61" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#457=M:[Backend]Backend.Modules.Vehicle.VehicleShopModule::OnTwoSecond()" Id="7c91651c1b4742f3">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="62" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#67" Id="7c91651c2ba08ea1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="63" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#69" Id="7c91651c108b4ad4">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="64" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#458=M:[Backend]Backend.Modules.Shops.ShopModule::GetItemModel(System.UInt32)" Id="7c91651c686d7b83">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="65" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#459=M:[Backend]Backend.Modules.Shops.ShopModule::GetItemModel(System.String)" Id="7c91651c72012dc5">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="66" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#71" Id="7c91651ce13cb914">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="67" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#73" Id="7c91651c482a9c52">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="68" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#75" Id="7c91651cd68fe2fb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="69" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#460=M:[Backend]Backend.Modules.Rank.RankModule::Load()" Id="7c91651ca1fbd09a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="70" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#77" Id="7c91651c4aafbf4f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="72" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#79" Id="7c91651c46d4a135">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="74" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#81" Id="7c91651c88ea46f0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="76" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#83" Id="7c91651c5053343f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="78" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#85" Id="7c91651ced8b0cdc">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="80" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#87" Id="7c91651c3ab80b47">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="81" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#89" Id="7c91651cafab2dff">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="82" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#91" Id="7c91651c2f077fa2">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="83" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#93" Id="7c91651c81962326">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="84" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#95" Id="7c91651c33a5d1dd">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="85" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#97" Id="7c91651c64c05303">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="86" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#99" Id="7c91651c0a6a780d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="87" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#461=M:[Backend]Backend.Modules.Player.PlayerModule::fistDamage([Backend]Backend.Models.RXPlayer, [Backend]Backend.Models.RXPlayer)" Id="7c91651c47fc98c7">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="88" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#462=M:[Backend]Backend.Modules.Player.SaveModule::OnTenMinute()" Id="7c91651caa99e56b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="90" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#101" Id="7c91651c4b52a9b5">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="92" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#103" Id="7c91651c21c45c12">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="94" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#105" Id="7c91651cc81b3f4d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="95" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#107" Id="7c91651c89824cd1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="96" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#463=M:[Backend]Backend.Modules.Native.NativeMenuModule::OnNativeMenu([Backend]Backend.Models.RXPlayer, System.String)" Id="7c91651c87b6f03b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="97" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#109" Id="7c91651c3d4cc997">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="98" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#111" Id="7c91651c0a49f3aa">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="99" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#113" Id="7c91651cded4b8d5">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="100" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#464=M:[Backend]Backend.Modules.Inventory.ContainerModule::MoveItemToAnotherContainer([Backend]Backend.Models.RXContainer+RXContainerObj, [Backend]Backend.Models.RXContainer+RXContainerObj, System.Int32, System.Int32, System.Int32)" Id="7c91651c0a9ed38e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="101" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#115" Id="7c91651c5716a60e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="102" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#117" Id="7c91651c9221548e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="103" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#119" Id="7c91651c886a5aaa">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="104" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#121" Id="7c91651c2799e1ab">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="105" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#123" Id="7c91651c52bf09da">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="106" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#125" Id="7c91651c28eaf836">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="107" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#127" Id="7c91651c59271f89">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="108" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#129" Id="7c91651ca144c054">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="109" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#131" Id="7c91651cdb9d9679">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="110" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#133" Id="7c91651c911570ba">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="111" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#135" Id="7c91651c716cd5b8">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="112" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#137" Id="7c91651c42b366bb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="113" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#139" Id="7c91651cbb95eb99">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="114" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#141" Id="7c91651cf90a5b20">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="115" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#143" Id="7c91651c4cd8fe57">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="116" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#145" Id="7c91651c68601128">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="117" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#147" Id="7c91651cffba4ce6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="118" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#149" Id="7c91651c08a074c9">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="119" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#151" Id="7c91651ccbffa211">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="120" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#153" Id="7c91651cdcd869c0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="121" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#155" Id="7c91651cd6de5823">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="122" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#157" Id="7c91651c875103fc">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="123" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#159" Id="7c91651c96e530d4">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="124" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#161" Id="7c91651c20fc6b15">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="125" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#465=M:[Backend]Backend.Modules.Garage.GarageModule::Load()" Id="7c91651ce73c0b45">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="126" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#163" Id="7c91651c838c31eb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="127" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#165" Id="7c91651c972bff17">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="128" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#167" Id="7c91651ca8bd3e5d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="129" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#466=M:[Backend]Backend.Modules.Commands.AdminCommands::vanish([Backend]Backend.Models.RXPlayer, System.Boolean)" Id="7c91651c22dec642">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="130" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#169" Id="7c91651cb8f29c3a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="131" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#171" Id="7c91651c5e3809ad">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="132" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#173" Id="7c91651cc5f7c0f6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="133" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#175" Id="7c91651c58c455d2">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="134" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#177" Id="7c91651c3baa6776">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="135" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#179" Id="7c91651cf141d693">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="136" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#181" Id="7c91651c858c330a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="137" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#183" Id="7c91651cab6fdeae">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="138" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#185" Id="7c91651c40dad9e4">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="139" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#187" Id="7c91651cf3c82fe0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="140" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#189" Id="7c91651c33e6e915">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="141" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#191" Id="7c91651c9cb618dd">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="142" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#193" Id="7c91651c2362a8c0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="143" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#195" Id="7c91651c47764d56">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="144" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#197" Id="7c91651c49d7e6f8">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="145" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#199" Id="7c91651c280a3fca">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="146" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#201" Id="7c91651c4cf5274f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="147" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#203" Id="7c91651c78cdcdc6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="148" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#205" Id="7c91651c5e5ea3d6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="149" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#207" Id="7c91651c8904bbb7">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="150" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#209" Id="7c91651ca36b09a2">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="151" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#211" Id="7c91651cff517241">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="152" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#213" Id="7c91651ce8cffe06">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="153" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#215" Id="7c91651c6161fbd2">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="154" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#217" Id="7c91651c54e36e48">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="155" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#219" Id="7c91651ca0388816">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="156" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#221" Id="7c91651c45f809cf">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="157" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#223" Id="7c91651c1cf60a18">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="158" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#225" Id="7c91651c10056bfa">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="159" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#467=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::GetComponentName(System.Int32)" Id="7c91651cb7ef648e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="160" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#468=M:[Backend]Backend.Modules.ClothingShops.ClothingShopModule::GetAccessoryName(System.Int32)" Id="7c91651cb8a15ee6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="161" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#227" Id="7c91651c2c67295b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="162" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#229" Id="7c91651c31cfde51">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="163" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#231" Id="7c91651c21f22ac5">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="164" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#233" Id="7c91651c6bb96a2f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="165" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#235" Id="7c91651cac0ac218">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="166" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#237" Id="7c91651c496e0e20">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="167" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#239" Id="7c91651c30c5242e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="168" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#241" Id="7c91651c07629173">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="169" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#243" Id="7c91651cb628887c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="170" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#469=M:[Backend]Backend.Modules.Bank.PaymentModule::cancelPayment([Backend]Backend.Models.RXPlayer)" Id="7c91651cf05ec642">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="171" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#245" Id="7c91651c95f6ecb9">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="172" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#247" Id="7c91651c7fdbe95f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="173" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#249" Id="7c91651c70789109">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="174" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#470=M:[Backend]Backend.Models.NPC::#ctor(GTANetworkAPI.PedHash, GTANetworkAPI.Vector3, System.Single, System.UInt32)" Id="7c91651cb9d29f5a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="175" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#251" Id="7c91651c1fd2d725">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="176" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#253" Id="7c91651c759dc837">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="177" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#255" Id="7c91651cdd849384">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="178" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#257" Id="7c91651c46749577">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="179" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#259" Id="7c91651ceaad9158">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="180" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#261" Id="7c91651cf8158822">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="181" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#263" Id="7c91651cd3ccd414">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="182" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#265" Id="7c91651c9d751ebc">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="183" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#267" Id="7c91651c4d6b6115">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="184" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#269" Id="7c91651c64bf8786">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="185" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#271" Id="7c91651c3799b31e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="186" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#273" Id="7c91651c335918b0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="187" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#275" Id="7c91651cc69c3042">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="188" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#277" Id="7c91651cd0313f00">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="189" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#279" Id="7c91651c5c2b1ccb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="190" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#281" Id="7c91651c982b027a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="191" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#283" Id="7c91651caedcfe6c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="206" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#285" Id="7c91651cfb1af8f5">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="207" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#287" Id="7c91651cf27151fb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="208" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#289" Id="7c91651c801da9ee">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="209" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#291" Id="7c91651c85696b36">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="210" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#293" Id="7c91651cf92ad47b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="211" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#295" Id="7c91651c719b8e41">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="212" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#297" Id="7c91651c03568b51">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="213" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#299" Id="7c91651ccf331971">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="214" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#301" Id="7c91651c43c56f7b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="215" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#303" Id="7c91651cad4f0bed">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="216" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#305" Id="7c91651cfdc829e9">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="217" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#307" Id="7c91651c2dd4faf1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="218" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#309" Id="7c91651c8b6d94ec">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="219" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#311" Id="7c91651ced119ee4">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="220" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#313" Id="7c91651cb783953c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="221" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#315" Id="7c91651c570d75e2">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="222" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#317" Id="7c91651c78ee9808">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="223" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#471=M:[Backend]Backend.Models.RXPlayer::SpawnAsync(GTANetworkAPI.Vector3, System.Single)" Id="7c91651c2b468910">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="224" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#319" Id="7c91651cb0f3ac55">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="225" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#321" Id="7c91651cdc480eca">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="226" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#323" Id="7c91651c9eabb4f0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="227" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#325" Id="7c91651c6d08a64d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="228" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#327" Id="7c91651ca310f8f0">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="229" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#329" Id="7c91651ceb81a174">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="230" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#331" Id="7c91651c97bd8500">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="231" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#333" Id="7c91651c5cd99e41">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="232" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#335" Id="7c91651c17d0bb1a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="233" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#337" Id="7c91651cd04ff517">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="234" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#339" Id="7c91651c44f22f4f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="235" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#341" Id="7c91651cd91a97bf">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="236" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#472=M:[Backend]Backend.Models.RXPlayer::ShowNativeMenu([Backend]Backend.Modules.Native.NativeMenu)" Id="7c91651ca4e65f02">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="237" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#473=M:[Backend]Backend.Models.RXPlayer::CloseNativeMenu()" Id="7c91651ce5c160dc">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="238" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#343" Id="7c91651c33e78e35">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="239" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#345" Id="7c91651cb35ef7e9">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="240" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#347" Id="7c91651c0e96fa19">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="241" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#349" Id="7c91651cabcb6bf4">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="243" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#351" Id="7c91651cd6d9a76d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="244" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#474=M:[Backend]Backend.Models.RXVehicle::HasPerm([Backend]Backend.Models.RXPlayer)" Id="7c91651cf711ca40">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="245" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#353" Id="7c91651c3eec5f04">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="246" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#355" Id="7c91651cb5dbd426">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="247" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#357" Id="7c91651c76282412">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="248" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#359" Id="7c91651cbadd4711">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="249" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#361" Id="7c91651ce8263d5a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="250" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#363" Id="7c91651cfa67f26a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="251" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#475=M:[Backend]Backend.Controllers.ModuleController::StartTimers()" Id="7c91651cb564bff8">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="252" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#476=M:[Backend]Backend.Controllers.ModuleController::Register([Backend]Backend.Modules.RXModule)" Id="7c91651c2ad187ae">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="253" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#365" Id="7c91651c0b0e2584">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="254" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#367" Id="7c91651ce4621b8a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="255" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#369" Id="7c91651cc55ff5e6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="256" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#371" Id="7c91651c747c865f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="257" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#373" Id="7c91651cd8ccd877">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="258" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#375" Id="7c91651c675a43b7">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="259" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#377" Id="7c91651c9b4a5ef1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="260" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#379" Id="7c91651c8e2fa4d1">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="261" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#381" Id="7c91651c5df24b06">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="262" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#383" Id="7c91651c1a03a2ae">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="263" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#385" Id="7c91651c1c574f42">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="264" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#387" Id="7c91651c7f13af5d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="265" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#389" Id="7c91651cf7f1580f">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="266" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#391" Id="7c91651c7a4807f6">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="267" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#477=M:[Backend]Backend.Controllers.PlayerController::GetValidPlayers()" Id="7c91651c4e9ab7fe">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="268" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#478=M:[Backend]Backend.Controllers.PlayerController::GetPlayers()" Id="7c91651c3e70005c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="269" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#393" Id="7c91651ce9c85820">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="270" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#395" Id="7c91651c06c3bc32">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="271" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#397" Id="7c91651c405b8a2b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="272" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#399" Id="7c91651c8d46dd3d">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="273" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#479=M:[Backend]Backend.Controllers.VehicleController::GetValidVehicles()" Id="7c91651c10f45ff9">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="274" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#480=M:[Backend]Backend.Controllers.VehicleController::GetVehicles()" Id="7c91651c598b13ed">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="275" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#481=M:[Backend]Backend.Controllers.VehicleController::FindVehicleById(System.Object)" Id="7c91651cca5d2070">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="276" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#482=M:[Backend]Backend.Controllers.VehicleController::FindVehicleByPlate(System.Object, System.Boolean)" Id="7c91651c2adc949b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="277" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#483=M:[Backend]Backend.Controllers.VehicleController::GetClosestVehicle(GTANetworkAPI.Vector3, System.Single, System.UInt32)" Id="7c91651c4a4666f5">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="278" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#484=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetInventoryUsedSpace()" Id="7c91651c341bcc3b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="279" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#485=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetInventoryFreeSpace()" Id="7c91651c3852e4ac">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="280" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#486=M:[Backend]Backend.Models.RXContainer+RXContainerObj::CanInventoryItemAdded([Backend]Backend.Models.RXItemModel, System.Int32)" Id="7c91651c4c398949">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="281" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#487=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetSlotOfSimilairSingleItems(System.UInt32)" Id="7c91651cd097919c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="282" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#488=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetSlotOfSimilairSingleItems([Backend]Backend.Models.RXItemModel)" Id="7c91651cf3ebbdbb">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="283" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#489=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetSlotOfSimilairItems([Backend]Backend.Models.RXItemModel)" Id="7c91651c9f612c44">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="284" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#490=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetItemAmount(System.UInt32)" Id="7c91651c3a21897a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="285" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#491=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetItemAmount(System.String)" Id="7c91651c4d031dc7">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="286" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#492=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetItemAmount([Backend]Backend.Models.RXItemModel)" Id="7c91651ceefe5c6b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="287" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#493=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetUsedSlots()" Id="7c91651c44440056">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="288" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#494=M:[Backend]Backend.Models.RXContainer+RXContainerObj::RemoveFromSlot(System.Int32, System.Int32)" Id="7c91651c7b7bc24c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="289" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#495=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetItemOnSlot(System.Int32)" Id="7c91651cf06244b3">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="290" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#496=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetModelOnSlot(System.Int32)" Id="7c91651c2e8ce8fa">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="291" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#497=M:[Backend]Backend.Models.RXContainer+RXContainerObj::AddItem([Backend]Backend.Models.RXItemModel, System.Int32, System.Int32, System.Boolean)" Id="7c91651c4c9c18d9">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="292" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#498=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetSlotOfSimilairItemsToStackAmount([Backend]Backend.Models.RXItemModel, System.Int32)" Id="7c91651cf78661d7">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="293" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#499=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetAmountOfItemsOnSlot(System.Int32)" Id="7c91651ca0302b23">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="294" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#500=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetSlotOfSimilairSingleItemsToStack(System.UInt32)" Id="7c91651cd2759ae3">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="295" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#501=M:[Backend]Backend.Models.RXContainer+RXContainerObj::GetNextFreeSlot(System.Collections.Generic.List{System.Int32})" Id="7c91651c06772494">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="296" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#502=M:[Backend]Backend.Models.RXContainer+RXContainerObj::SetSlotClear(System.Int32)" Id="7c91651cfc1271ee">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="297" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#503=M:[Backend]Backend.Models.RXContainer+RXContainerObj::RemoveItemSlotFirst([Backend]Backend.Models.RXItemModel, System.Int32, System.Int32)" Id="7c91651c1f6a3231">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="298" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#504=M:[Backend]Backend.Models.RXContainer+RXContainerObj::AddItem(System.UInt32, System.Int32, System.Int32, System.Boolean)" Id="7c91651c4b41cc6c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="299" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#505=M:[Backend]Backend.Models.RXContainer+RXContainerObj::RemoveItem(System.UInt32, System.Int32, System.Boolean)" Id="7c91651c68b70947">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="300" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#506=M:[Backend]Backend.Models.RXContainer+RXContainerObj::RemoveItem([Backend]Backend.Models.RXItemModel, System.Int32, System.Boolean)" Id="7c91651c0366af97">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="301" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#507=M:[Backend]Backend.Models.RXContainer+RXContainerObj::AddContainerItem([Backend]Backend.Models.RXItemModel, System.Int32, System.Int32, System.Boolean)" Id="7c91651cf8b99f1c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="302" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#508=M:[Backend]Backend.Models.RXContainer+RXContainerObj::ConvertForClient(System.UInt32, System.String, System.Int32, System.Int32)" Id="7c91651c1db1e824">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#404" Ordinal="303" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#509=T:[PostSharp.Patterns.Diagnostics]PostSharp.Patterns.Diagnostics.LogAttribute">
+    <Instance Declaration="#510=T:[Backend]Backend.Modules.Player.LoginModule" Id="7c91651c0ce7c9e8">
+      <Target Target="#77">
+        <JoinPoint Advising="#509" Description="#511=Adds logging" Ordinal="73" LinesAvoided="7" />
+      </Target>
+      <Target Target="#79">
+        <JoinPoint Advising="#509" Description="#511" Ordinal="75" LinesAvoided="7" />
+      </Target>
+      <Target Target="#81">
+        <JoinPoint Advising="#509" Description="#511" Ordinal="77" LinesAvoided="7" />
+      </Target>
+      <Target Target="#83">
+        <JoinPoint Advising="#509" Description="#511" Ordinal="79" LinesAvoided="7" />
+      </Target>
+      <Target Target="#512=M:[Backend]Backend.Modules.Player.LoginModule::#ctor()">
+        <JoinPoint Advising="#509" Description="#511" Ordinal="71" LinesAvoided="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#513=T:[Backend]Backend.Modules.Player.SaveModule" Id="7c91651cf771fa3c">
+      <Target Target="#462">
+        <JoinPoint Advising="#509" Description="#511" Ordinal="91" LinesAvoided="5" />
+      </Target>
+      <Target Target="#101">
+        <JoinPoint Advising="#509" Description="#511" Ordinal="93" LinesAvoided="7" />
+      </Target>
+      <Target Target="#514=M:[Backend]Backend.Modules.Player.SaveModule::#ctor()">
+        <JoinPoint Advising="#509" Description="#511" Ordinal="89" LinesAvoided="5" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#515=M:[Backend]Backend.Utils.ExceptionAspect+HandleExceptionsAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#516=2" Description="#517=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+</Symbols>
